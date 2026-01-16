@@ -3,112 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>João Carlos | Portfólio Full Stack</title>
+
+  <title>João Carlos | Desenvolvedor Full Stack</title>
+
+  <meta name="description" content="Portfólio de João Carlos Fidelis de Moura Affonso, Desenvolvedor Full Stack com foco em automações, aplicações web e mobile, APIs e soluções com IA.">
+  <meta name="keywords" content="Desenvolvedor Full Stack, Python, JavaScript, Automação, Portfólio, Web, Mobile, IA">
+  <meta name="author" content="João Carlos Fidelis de Moura Affonso">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<header class="hero">
   <h1>João Carlos Fidelis de Moura Affonso</h1>
   <p class="subtitle">
-    Desenvolvedor Full Stack • Automação de Processos • Web & Mobile
+    Desenvolvedor Full Stack • Automações • Web & Mobile
   </p>
 
-  <div class="links">
+  <nav class="links">
     <a href="https://www.linkedin.com/in/joaocarlos-fullstack" target="_blank">LinkedIn</a>
-    <a href="https://github.com/jcfidelisma/portf-lio" target="_blank">GitHub</a>
-  </div>
+    <a href="https://github.com/jcfidelisma" target="_blank">GitHub</a>
+  </nav>
 </header>
+
+<main>
 
 <section class="about">
   <h2>Sobre mim</h2>
   <p>
-    Desenvolvedor Full Stack com experiência prática no desenvolvimento de sistemas web,
-    automações comerciais, aplicações mobile e agentes de atendimento automatizado.
-    Atuo do frontend ao backend, com foco em soluções reais para negócios.
+    Desenvolvedor Full Stack com experiência prática na criação de sistemas web,
+    aplicações mobile em Python, automações de processos e integrações com APIs.
+    Atuo do frontend ao backend, desenvolvendo soluções completas e orientadas a negócio.
   </p>
 </section>
 
 <section class="projects">
   <h2>Projetos</h2>
 
-  <!-- Projeto 1 -->
-  <div class="project">
-    <img src="assets/proposta-express.png" alt="Sistema de Propostas Comerciais">
-    <div class="project-content">
-      <h3>Sistema de Propostas Comerciais (Web)</h3>
+  <article class="project-card">
+    <img src="assets/proposta-express.png" alt="Sistema web de propostas comerciais">
+    <div>
+      <h3>Sistema de Propostas Comerciais</h3>
       <p>
-        Sistema web para criação, envio e gerenciamento de propostas comerciais, com
-        cadastro de clientes, empresas, valores, histórico de envios, status e
-        integração para envio automático por e-mail com geração de PDF.
+        Sistema web para criação, envio e gerenciamento de propostas comerciais,
+        com cadastro de clientes, histórico de envios, status e envio automático
+        por e-mail com PDF anexado.
       </p>
-      <p class="tech">
-        HTML • CSS • JavaScript • API • Banco de Dados • Automação de E-mails
-      </p>
+      <span class="tech">HTML • CSS • JavaScript • APIs • Banco de Dados • Automação</span>
     </div>
-  </div>
+  </article>
 
-  <!-- Projeto 2 -->
-  <div class="project">
-    <img src="assets/formulario-frontend.png" alt="Formulário Frontend">
-    <div class="project-content">
-      <h3>Formulários Dinâmicos e Integração Frontend</h3>
+  <article class="project-card">
+    <img src="assets/formulario-frontend.png" alt="Formulários web dinâmicos">
+    <div>
+      <h3>Formulários Dinâmicos e Integrações</h3>
       <p>
-        Desenvolvimento de interfaces web com formulários dinâmicos, validação de dados
-        e integração com backend para processamento de informações comerciais.
+        Interfaces web com formulários dinâmicos, validação de dados e integração
+        com backend para processamento de informações comerciais.
       </p>
-      <p class="tech">
-        HTML • CSS • JavaScript • Integração com API
-      </p>
+      <span class="tech">HTML • CSS • JavaScript • Integração com API</span>
     </div>
-  </div>
+  </article>
 
-  <!-- Projeto 3 -->
-  <div class="project">
-    <img src="assets/app-mobile.png" alt="Aplicativo Mobile em Python">
-    <div class="project-content">
+  <article class="project-card">
+    <img src="assets/app-mobile.png" alt="Aplicativo mobile desenvolvido em Python">
+    <div>
       <h3>Aplicativo Mobile em Python</h3>
       <p>
-        Aplicação mobile desenvolvida com Python e Kivy/KivyMD, contendo telas de login,
-        cadastro, dashboard e navegação entre múltiplas telas, com foco em UI/UX e
-        organização modular.
+        Aplicação mobile desenvolvida com Python e Kivy/KivyMD, com telas de login,
+        cadastro, dashboard e navegação entre múltiplas telas.
       </p>
-      <p class="tech">
-        Python • Kivy • KivyMD • UI/UX Mobile
-      </p>
+      <span class="tech">Python • Kivy • KivyMD • UI/UX Mobile</span>
     </div>
-  </div>
+  </article>
 
-  <!-- Projeto 4 -->
-  <div class="project">
-    <img src="assets/agente-ia.png" alt="Agente de Atendimento com IA">
-    <div class="project-content">
-      <h3>Agente de Atendimento Automatizado com IA</h3>
+  <article class="project-card">
+    <img src="assets/agente-ia.png" alt="Agente de atendimento automatizado com IA">
+    <div>
+      <h3>Agente de Atendimento Automatizado</h3>
       <p>
-        Agente de atendimento automatizado com múltiplos fluxos, incluindo produtos,
-        regras de negócio, agendamento, extração de dados, transferência de atendimento
-        e integração com outras estratégias.
+        Agente de atendimento com múltiplos fluxos, regras de negócio, extração de dados
+        e integração com sistemas externos.
       </p>
-      <p class="tech">
-        IA Conversacional • Automação de Fluxos • APIs • Integrações
-      </p>
+      <span class="tech">IA • Automação • APIs • Integrações</span>
     </div>
-  </div>
-
-  <!-- Projeto 5 -->
-  <div class="project">
-    <img src="assets/campanha-trafego.png" alt="Campanha de Tráfego Pago">
-    <div class="project-content">
-      <h3>Gestão Técnica de Tráfego Pago</h3>
-      <p>
-        Configuração e gestão técnica de campanhas no Meta Ads, com foco em estrutura,
-        criativos, métricas e performance.
-      </p>
-      <p class="tech">
-        Meta Ads • Análise de Métricas • Marketing Digital
-      </p>
-    </div>
-  </div>
+  </article>
 
 </section>
 
@@ -117,13 +96,12 @@
   <ul>
     <li>Python</li>
     <li>JavaScript</li>
-    <li>HTML</li>
-    <li>CSS</li>
+    <li>HTML5</li>
+    <li>CSS3</li>
     <li>Node.js</li>
     <li>APIs REST</li>
     <li>Banco de Dados</li>
     <li>Automação de Processos</li>
-    <li>Desenvolvimento Mobile</li>
     <li>Git & GitHub</li>
   </ul>
 </section>
@@ -131,13 +109,15 @@
 <section class="contact">
   <h2>Contato</h2>
   <p>
-    Disponível para projetos, freelances ou oportunidades profissionais.<br>
+    Aberto a oportunidades profissionais, freelances e projetos.<br>
     Entre em contato via LinkedIn ou GitHub.
   </p>
 </section>
 
+</main>
+
 <footer>
-  <p>© 2026 – João Carlos Fidelis de Moura Affonso</p>
+  <p>© 2026 — João Carlos Fidelis de Moura Affonso</p>
 </footer>
 
 </body>
