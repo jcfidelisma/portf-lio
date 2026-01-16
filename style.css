@@ -9,21 +9,17 @@ body {
   color: #333;
 }
 
-/* Header */
-header {
+/* HERO */
+.hero {
   background-color: #1f3c88;
   color: #fff;
-  padding: 50px 20px;
+  padding: 60px 20px;
   text-align: center;
-}
-
-header h1 {
-  margin-bottom: 10px;
 }
 
 .subtitle {
   font-size: 1.1rem;
-  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .links a {
@@ -33,7 +29,7 @@ header h1 {
   font-weight: bold;
 }
 
-/* Sections */
+/* SECTIONS */
 section {
   max-width: 1100px;
   margin: auto;
@@ -41,12 +37,12 @@ section {
 }
 
 h2 {
-  margin-bottom: 30px;
   color: #1f3c88;
+  margin-bottom: 30px;
 }
 
-/* Projects */
-.project {
+/* PROJECTS */
+.project-card {
   display: flex;
   gap: 25px;
   background: #fff;
@@ -56,23 +52,20 @@ h2 {
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.project img {
+.project-card img {
   width: 320px;
   border-radius: 6px;
   object-fit: cover;
 }
 
-.project-content h3 {
-  margin-top: 0;
-}
-
 .tech {
+  display: block;
   margin-top: 10px;
   font-size: 0.9rem;
   color: #555;
 }
 
-/* Stack */
+/* STACK */
 .stack ul {
   list-style: none;
   padding: 0;
@@ -89,12 +82,12 @@ h2 {
   font-size: 0.9rem;
 }
 
-/* Contact */
+/* CONTACT */
 .contact {
   text-align: center;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
   background-color: #ddd;
   text-align: center;
@@ -102,13 +95,14 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Responsive */
+/* RESPONSIVE */
 @media (max-width: 900px) {
-  .project {
+  .project-card {
     flex-direction: column;
+    text-align: center;
   }
 
-  .project img {
+  .project-card img {
     width: 100%;
   }
 }
