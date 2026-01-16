@@ -101,7 +101,7 @@ Meta Ads, Análise de Métricas, Marketing Digital
 
 O portfólio está publicado via **GitHub Pages**:
 
-👉 [https://SEU_USUARIO.github.io/portf-lio/](https://SEU_USUARIO.github.io/portf-lio/)
+👉 [https://jcfidelisma.github.io/portf-lio/](https://jcfidelisma.github.io/portf-lio/)
 
 ---
 
